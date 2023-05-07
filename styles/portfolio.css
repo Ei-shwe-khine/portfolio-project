@@ -97,7 +97,11 @@ h4{
 }
 .project-description{
      padding: 120px 60px;
+     margin-top: 100px;
 
+}
+.project-description p{
+    font-size: 20px;
 }
 @media(max-width: 900px){
     h1{
@@ -225,6 +229,9 @@ h4{
     color: black;
     
 }
+.active{
+    color: var(--branding-color);
+}
 a{
     margin-left: 15px;
 }
@@ -271,4 +278,10 @@ footer .social-links a{
 footer .social-links a:hover{
     color: wheat;
     background-color: var(--branding-color);
+}
+.img-fluid{
+    margin-top: 90px;
+}
+.yogurt{
+    margin-bottom: 150px;
 }
